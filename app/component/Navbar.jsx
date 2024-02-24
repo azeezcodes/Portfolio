@@ -17,21 +17,21 @@ const Navbar = () => {
     return (
         <>
             <nav className='fixed w-full  overflow-x-hidden shadow flex flex-row justify-between items-center py-[20px] z-[100] px-[30px] bg-[#EFEFEF]'>
-                <Link className={`font-mono md:font-bold font-normal text-black uppercase text-[18px] md:text-[35px]`} href='/'>Azeezcodes</Link>
+                <Link className={`bebas font-bold  text-black uppercase text-[14px] md:text-[30px]`} href='/'>Azeezcodes</Link>
 
                 <div style={{ transition: '1s' }} className={` fixed ${showNav} w-[50%] md:w- top-0 justify-center  md:static items-center bottom-0 md:py-0 py-[50px]  gap-[30px] px-[100px] md:px-[20px] flex flex-col md:flex-row md:bg-0 rounded  shadow-xl md:shadow-none capitalize text-center`}>
                     {navs.map((link, index)=> {
                         return <Link key={index} aria-label={`link to ${link} page`} onClick={() => setShowNav('right-[-1000px]')} className={`link ${pathname == `/${link}` ? 'font-bold' : ''} text-slate-900 text-[15px] md:text-[20px] `} href={link == 'home' ? '/' : link}>{link}</Link>
                     })}
                     <hr />
-                    <div className='flex md:hidden gap-5 items-center'>
-                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my github profile' href='https://github.com/azeezcodes'>   <BsGithub className='text-slate-900 hover:text-blue-500  bg-white shadow-2xl p-1 text-[30px] rounded-full ' /> </Link>
-                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my linkedin profile' href='https://www.linkedin.com/in/abdulazeez-onadipe/'> <BsLinkedin className='text-slate-900 hover:text-blue-500 bg-white shadow-2xl p-1 text-[30px] rounded-full ' /></Link>
-                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my twitter profile' href='https://twitter.com/az_omoade'> <AiFillTwitterCircle className='text-slate-900 hover:text-blue-500 bg-white shadow-2xl p-1 text-[30px] rounded-full ' /></Link>
+                    <div className='flex md:hidden gap-5 items-center bg-[#EFEFEF]'>
+                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my github profile' href='https://github.com/azeezcodes'>   <BsGithub className='text-slate-900 hover:text-[#898989]   bg-white shadow-2xl p-1 text-[30px] rounded-full ' /> </Link>
+                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my linkedin profile' href='https://www.linkedin.com/in/abdulazeez-onadipe/'> <BsLinkedin className='text-slate-900 hover:text-[#898989]  bg-white shadow-2xl p-1 text-[30px] rounded-full ' /></Link>
+                        <Link className='flex flex-row gap-2 items-center' aria-label='link to my twitter profile' href='https://twitter.com/az_omoade'> <AiFillTwitterCircle className='text-slate-900 hover:text-[#898989]  bg-white shadow-2xl p-1 text-[30px] rounded-full ' /></Link>
                     </div>
                 </div>
 
-                <button className='px-8 py-4 bg-[#0029FF] rounded-md text-white font-semibold hidden md:block'>Resume</button>
+                <button className='px-8 py-2 bg-[#cfcece]  rounded-md text-black font-semibold hidden md:block border border-[#898989]'>Download CV</button>
 
                 <div className='relative z-10 flex md:hidden items-center '>
                     {showNav == 'right-[-1000px]' ? <AiOutlineMenu onClick={() => setShowNav('right-0')} className='text-[30px] text-black hover:text-blue-500' /> :

@@ -39,10 +39,10 @@ const about = () => {
                <div className="flex gap-5 items-center">
                   <Link
                      aria-label="link to my projects page"
-                     className="border p-2 rounded text-[15px] md:text-[20px] border-blue-500 text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-700 bg-slate-900"
+                     className="border p-2 rounded text-[15px] md:text-[20px]  text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-700 bg-slate-900"
                      href="/projects"
                   >
-                     My Projects
+                    Download CV
                   </Link>
                </div>
             </div>

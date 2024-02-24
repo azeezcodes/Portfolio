@@ -7,8 +7,8 @@ const Footer = () => {
               <p className='font-[500]'>Want to Collaborate?</p>
 
               <div className="flex justify-between items-baseline  ">
-                  <p className='font-black text-[3rem] md:text-[8rem] -mt-7'>Let's Talk ...</p>
-                  <div className=' font-light text-sm flex gap-8 justify-between cursor-pointer'>
+                  <p className='font-black text-[2rem] md:text-[8rem] md:-mt-7 '>Let's Talk ...</p>
+                  <div className=' font-light text-xs md:text-sm flex flex-col md:flex-row md:gap-8 gap-1 justify-between cursor-pointer'>
                       <Link target="_blank" href='https://www.linkedin.com/in/abdulazeez-onadipe/'> <p>LinkedIn</p></Link>
                       <Link target="_blank" href='https://github.com/azeezcodes/'> <p>Github</p></Link>
                       <Link className='flex flex-row gap-2 items-center' target="_blank" href='https://twitter.com/az_omoade'> <p>Twitter</p></Link>
