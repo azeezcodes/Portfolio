@@ -28,7 +28,7 @@ const about = () => {
                </p>
                <p className="text-sm text-slate-500 font-light">
 
-                  I'm a dedicated Frontend Developer driven by a passion for crafting impactful solutions that exceed expectations. With expertise in JavaScript and TypeScript, I specialize in React and Next.js, though I'm proficient in Vue.js and Angular as well. My focus on innovation and value delivery ensures seamless user experiences and positive outcomes for businesses and communities."
+                  I'm a dedicated Frontend Developer driven by a passion for crafting impactful solutions that exceed expectations. With expertise in JavaScript and TypeScript, I specialize in React and Next.js, though I'm familiar with other JavaScript framework and libraries as well. My focus on innovation and value delivery ensures seamless user experiences and positive outcomes for businesses and communities."
                </p>
                <p className="text-sm text-slate-500 font-light">
                   "Through problem-solving and collaboration, I optimize performance, ensure cross-browser compatibility, and manage complex data flows. My adaptability across JavaScript frameworks enables me to tackle any challenge effectively. I believe in translating vision into reality and am committed to making a lasting impact through transformative experiences."
