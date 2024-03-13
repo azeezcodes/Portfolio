@@ -42,8 +42,8 @@ const page = () => {
               <p className="text-xs text-[#898989] mt-2 "> A Next.js-based platform for seamless communication between teachers and students. With features like performance tracking and file sharing, Easycommu revolutionizes educational interaction. Teachers engage students effortlessly, while students access resources and updates conveniently. Easycommu redefines education communication, fostering collaboration and efficiency. Experience the future of learning with Easycommu.</p>
             </div>
             <div className="flex mt-2 gap-4 items-center">
-              <CgLink size={20}/>
-              <FiGithub size={18}/>
+              <Link href="   https://adminsite.vercel.app/" target='blank'><CgLink size={20} /></Link>                         
+              <Link href="  https://github.com/azeezcodes/adminsite" target='blank'> <FiGithub size={18} /></Link>          
             </div>
           </div>
           <div className="md:justify-self-end  justify-self-center   md:w-[500px] w-fit h-fit rounded-md mt-16 ">
