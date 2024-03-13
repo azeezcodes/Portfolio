@@ -63,7 +63,7 @@ const page = () => {
               height={500} />
             <div className="flex flex-col">
               <p className="font-black text-2xl text-[#363636] mt-3">Mstore</p>
-              <p className="text-xs text-[#898989] mt-2 ">Mstore is a revolutionary two-in-one platform that combines the features of an ecommerce marketplace and a freelancing platform. It allows buyers to access sellers storefronts to buy and sell goods and services, creating a seamless experience for both transactions and freelance collaborations.</p>
+              <p className="text-xs text-[#898989] mt-2 ">Mstore is a revolutionary two-in-one platform that combines the features of an ecommerce marketplace and a freelancing platform. It allows buyers to access sellers storefronts to buy and sell goods and services, creating a seamless experience for both transactions and freelance collaboration using extensively redux and nextjs</p>
 
             </div>
             <div className="flex mt-2 gap-4 items-center">
