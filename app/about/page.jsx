@@ -40,7 +40,7 @@ const about = () => {
                   <Link
                      aria-label="link to my projects page"
                      className="border p-2 rounded text-[15px] md:text-[20px]  text-slate-50 font-[500] hover:text-slate-50 hover:bg-slate-700 bg-slate-900"
-                     href="https://drive.google.com/file/d/1Rrd8EyYPWD99Im0l_fE1nN0uIS9ptT7D/view?usp=sharing"
+                     href=" https://drive.google.com/file/d/12D7Q0Gg-1bXiicnyuIsc2gBn7X_HGkZw/view?usp=sharing"
                   >
                     Download CV
                   </Link>

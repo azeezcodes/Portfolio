@@ -30,7 +30,7 @@ const Navbar = () => {
                         <Link className='flex flex-row gap-2 items-center' aria-label='link to my twitter profile' href='https://twitter.com/az_omoade'> <AiFillTwitterCircle className='text-slate-900 hover:text-[#898989]  bg-white shadow-2xl p-1 text-[30px] rounded-full ' /></Link>
                     </div>
                 </div>
-                <Link href="https://drive.google.com/file/d/1Rrd8EyYPWD99Im0l_fE1nN0uIS9ptT7D/view?usp=sharing">
+                <Link href=" https://drive.google.com/file/d/12D7Q0Gg-1bXiicnyuIsc2gBn7X_HGkZw/view?usp=sharing">
                 <button className='px-8 py-2 bg-[#cfcece]  rounded-md text-black font-semibold hidden md:block border border-[#898989]'>Download CV</button>
                 </Link>
                 <div className='relative z-10 flex md:hidden items-center '>
